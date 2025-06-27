@@ -1,26 +1,5 @@
 # Inköpsplanerare för E-handel - Docker Setup
 
-## 📁 Filstruktur
-
-Skapa följande filstruktur:
-
-```
-purchase-planner/
-├── Dockerfile
-├── docker-compose.yml
-├── nginx.conf
-├── package.json
-├── .dockerignore
-├── public/
-│   └── index.html
-└── src/
-    ├── index.js
-    ├── index.css
-    ├── App.js
-    ├── App.css
-    └── components/
-        └── PurchasePlanner.js
-```
 
 ## 🚀 Snabbstart
 

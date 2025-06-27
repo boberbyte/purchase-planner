@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  purchase-planner:
+    build: .
+    container_name: purchase-planner
+    ports:
+      - "3000:80"  # Mappar port 8080 på host till port 80 i container
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    # Volym för att bevara uppladdade filer (optional)
+    # volumes:
+    #   - ./uploads:/usr/share/nginx/html/uploads
